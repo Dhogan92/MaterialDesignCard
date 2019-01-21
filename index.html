@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="totalAmount">
+            <h1 id="totalAmount"></h1>
+        </div>
+        <div class="cardContainer">
+            <div class="card">
+                <div class="cardHeader">
+                    <div class="cardImageContainer">
+                        <img class="cardImage" src="https://images.unsplash.com/photo-1495105787522-5334e3ffa0ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80" alt="item photo"/>
+                        <div class="imageCap">
+                            <p>New Arrival</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardBody">
+                    <h1 class="itemTitle">"Donut Brand" Jean Jacket</h1>
+                    <hr class="cardBodyHr">
+                    <p class="itemDescrip">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="cardBody2">
+                     <div>
+                        <div>
+                            <h3 class="itemTitle2">"Donut Brand" Denim Jacket</h3>
+                        </div>
+                    </div>
+                    <div>
+                        <h1 class="qAmount" id="itmPrice">$55</h1>
+                        <hr class="cardBodyHr">
+                        <p class="qTitle">Quantity</p>
+                        <form class="cartForm" id="cartFormData"  onsubmit="handleSubmit()">
+                            <input class="quantInpt" id="quantInptData" onchange="inputChange(event)"type="number" value="1" min="0">
+                            <button class="quantBtn" ><i style="color: white" class="fas fa-plus"></i></button>
+                        </form>
+                    </div>
+                </div>
+                 <div class="cardBody3" id="cardBody3"></div>
+                <div class="cardOptionsContainer">
+                    <div id="backBtn" class="cardOptions">
+                        <h3 class="cardOptionsText"><i class="fas fa-long-arrow-alt-left"></i></h3>
+                    </div>
+                    <div id="saveBtn" class="cardOptions">
+                        <div class="heart"></div>
+                    </div>
+                    <div id="buyBtn" class="cardOptions">
+                        <h3 id="cartBtnCntr" class="cardOptionsText"><i class="fas fa-cart-plus"></i></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <script
+  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+  crossorigin="anonymous"></script>
+        <script src="jquery.js" async defer></script>
+        <script src="main.js" async defer></script>
+    </body>
+</html>
