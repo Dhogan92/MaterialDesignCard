@@ -38,11 +38,5 @@ $('.heart').click(function() {
 
 })
 
-
-
-
-
-// Vanilla Javascript 
-
     
 

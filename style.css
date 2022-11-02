@@ -22,15 +22,15 @@ body {
 
 .card {
     background-color: white;
-    width: 250px;
+    width: 265px;
     height: 100%;
-    margin: 2.7% auto;
+    margin: auto;
     margin-top: 120px;
     text-align: center;
     box-shadow:0 3px 6px 0 rgba(0, 0, 0, 0.2);
     animation-name: slideIn;
-    animation-duration: 2.5s;
-    animation-fill-mode: backwards;
+   
+    animation-fill-mode: ease-in;
 
    
 }
@@ -44,9 +44,6 @@ body {
 
 }
 
-.cardImageContainer {
-
-}
 
 .cardImage {
     width: 100%;
@@ -68,12 +65,12 @@ body {
 }
 
 .cardBody {
-    padding: 15px;
+    padding: 20px;
     height: 210px;
 }
 
 .cardBody2 {
-    padding: 15px;
+    padding: 20px;
     height: 210px;
     display: none;
 
@@ -86,12 +83,12 @@ body {
 }
 
 .itemTitle {
-    font-size: 20px;
+    font-size: 26px;
 
 }
 
 .itemTitle2 {
-    font-size: 20px;
+    font-size: 26px;
     margin-bottom: 10px;
 
 }
