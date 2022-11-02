@@ -22,9 +22,10 @@ body {
 
 .card {
     background-color: white;
-    width: 30%;
+    width: 250px;
     height: 100%;
     margin: 2.7% auto;
+    margin-top: 120px;
     text-align: center;
     box-shadow:0 3px 6px 0 rgba(0, 0, 0, 0.2);
     animation-name: slideIn;
@@ -60,7 +61,7 @@ body {
     background-color: pink;
     position: relative;
     bottom: 30px;
-    font-size: 1.5vw;
+    font-size: 20pxvw;
     border: 1px solid pink;
     width: 40%;
 
@@ -85,19 +86,19 @@ body {
 }
 
 .itemTitle {
-    font-size: 2.5vw;
+    font-size: 20px;
 
 }
 
 .itemTitle2 {
-    font-size: 1.8vw;
+    font-size: 20px;
     margin-bottom: 10px;
 
 }
 
 .itemDescrip {
     padding: 10px;
-    font-size: 1.1vw;
+    font-size: 12px;
 }
 
 .cardOptionsContainer {
@@ -112,7 +113,7 @@ body {
 }
 
 .cardOptions {
-    font-size: .8vw;
+    font-size: 12px;
     padding: 10px;
     background-color: #f8f9ff;
     width:  100%;
@@ -129,7 +130,7 @@ body {
 }
 
 .quantInpt {
-    font-size: 1.5vw;
+    font-size: 12px;
     padding: 5px;
     width: 70%;
     border-radius: 2px;
@@ -163,18 +164,22 @@ body {
     outline: none
 }
 
+.plus-sign {
+    margin-bottom: 5px;
+}
+
 .qTitle {
-    font-size: .8vw;
+    font-size: 12px;
 }
 
 .qAmount {
     color: #85bb65;
-    font-size: 1.5vw;
+    font-size: 12px;
 }
 
 .successMsg {
     color: #85bb65;
-    font-size: 2vw;
+    font-size: 12px;
 }
 
 .unlikeHeart {
