@@ -37,6 +37,3 @@ $('.heart').click(function() {
     $(this).css('backgroundPosition','left')
 
 })
-
-    
-

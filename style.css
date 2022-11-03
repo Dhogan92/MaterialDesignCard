@@ -69,19 +69,14 @@ body {
     height: 210px;
 }
 
-.cardBody2 {
+.cardBody2, .cardBody3 {
     padding: 20px;
     height: 210px;
     display: none;
 
 }
 
-.cardBody3 {
-    padding: 15px;
-    height: 210px;
-    display: none;
-}
-
+ 
 .itemTitle {
     font-size: 26px;
 
@@ -94,7 +89,7 @@ body {
 }
 
 .itemDescrip {
-    padding: 10px;
+    padding: 12px;
     font-size: 12px;
 }
 
@@ -171,7 +166,7 @@ body {
 
 .qAmount {
     color: #85bb65;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .successMsg {
